@@ -42,7 +42,7 @@ publish:
   provider: github
   owner: pkundu307    # Replace with your GitHub username or organization name
   repo: checkElectron           # Replace with your repository name
-  releaseType: draft               # optional: can be draft, prerelease, or release
+  releaseType: release               # optional: can be draft, prerelease, or release
   private: false                   # Set to true if your repository is private
 electronDownload:
   mirror: https://npmmirror.com/mirrors/electron/
