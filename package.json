@@ -20,6 +20,10 @@
     "build:mac": "electron-vite build && electron-builder --mac",
     "build:linux": "electron-vite build && electron-builder --linux"
   },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/pkundu307/checkElectron"
+},
   "dependencies": {
     "@electron-toolkit/preload": "^3.0.1",
     "@electron-toolkit/utils": "^3.0.0",
