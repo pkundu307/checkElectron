@@ -13,17 +13,13 @@
     "typecheck": "npm run typecheck:node && npm run typecheck:web",
     "start": "electron-vite preview",
     "dev": "electron-vite dev",
-   "build": "GH_TOKEN=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",
+    "build": "npm run typecheck && electron-vite build",
     "postinstall": "electron-builder install-app-deps",
     "build:unpack": "npm run build && electron-builder --dir",
     "build:win": "npm run build && electron-builder --win",
     "build:mac": "electron-vite build && electron-builder --mac",
     "build:linux": "electron-vite build && electron-builder --linux"
   },
-  "repository": {
-  "type": "git",
-  "url": "https://github.com/pkundu307/checkElectron"
-},
   "dependencies": {
     "@electron-toolkit/preload": "^3.0.1",
     "@electron-toolkit/utils": "^3.0.0",

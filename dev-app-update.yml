@@ -1,3 +1,3 @@
 provider: generic
-url: https://example.com/auto-updates
+url: https://github.com/pkundu307/checkElectron/commits/v1.5.0
 updaterCacheDirName: check-updater
