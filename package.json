@@ -13,7 +13,7 @@
     "typecheck": "npm run typecheck:node && npm run typecheck:web",
     "start": "electron-vite preview",
     "dev": "electron-vite dev",
-    "build": "npm run typecheck && electron-vite build",
+   "build": "GH_TOKEN=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",
     "postinstall": "electron-builder install-app-deps",
     "build:unpack": "npm run build && electron-builder --dir",
     "build:win": "npm run build && electron-builder --win",
