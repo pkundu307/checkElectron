@@ -40,8 +40,8 @@ appImage:
 npmRebuild: false
 publish:
   provider: github
-  owner: <your-github-username>    # Replace with your GitHub username or organization name
-  repo: <your-repo-name>           # Replace with your repository name
+  owner: pkundu307    # Replace with your GitHub username or organization name
+  repo: checkElectron           # Replace with your repository name
   releaseType: draft               # optional: can be draft, prerelease, or release
   private: false                   # Set to true if your repository is private
 electronDownload:
